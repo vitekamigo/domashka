@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Form</title>
+</head>
+<body>
+
+<form>
+	<fieldset>
+			<legend>Інформація про об'єкт</legend>
+			<label for="title" >Заголовок</label><br>
+				<input type="text" id="title" name="title" placeholder="Введіть назву об'єкта">
+			<br>
+			<label >Фото об'єкта</label>
+			<br>
+				<input type="file">
+			<br>
+			<label for="price">Ціна за кв. метр</label>
+			<br>
+			<input type="number" id="price" name="price" placeholder="Введіть ціну">
+			<br>
+			<label for="object-class">Клас об'єкта</label>
+			<br>
+			<input type="text" name="object-class" id="object-class" placeholder="Введіть клас об'єкта">
+			<br>
+			<label for="status">Статус</label>
+			<br>
+			<select name="status" id="status">
+	            <option>Проект</option>
+	            <option>Будується</option>
+	            <option>Зданий</option>
+	            <option>Скандальний</option>
+	        </select>
+	        <br>
+	        <label for="rating">Рейтинг</label>
+	        <br>
+	        <input type="checkbox" id="rating">
+	</fieldset>
+
+	<fieldset>
+
+      <legend>Адреса</legend>
+          <label for="city">Місто</label>
+          <br>
+          	<input type="text" name="city" id="city" placeholder="Введіть назву міста">
+          <br>  	             
+          <label for="micro-district">Мікрорайон</label>
+          <br>
+          	<input type="text" name="micro-district" id="micro-district" placeholder="Введіть назву мікрорайона">
+          <br>     
+          <label for="street">Вулиця</label>
+          <br>
+          	<input type="text" name="street" id="street" placeholder="Enter street name">
+    </fieldset>
+
+    <fieldset>
+    <legend>Контент</legend>
+    
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+    
+    </fieldset>  
+    <button type="submit">
+      Зберегти
+    </button>
+    <button type="reset">
+      Скасувати
+    </button>   
+</form>
+
+</body>
+</html>
